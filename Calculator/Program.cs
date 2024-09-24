@@ -1,6 +1,7 @@
-﻿int firstNumber = 5;
-int secondNumber = 20;
+﻿Console.WriteLine("Type in the first number followed by the Enter key");
+int firstNumber = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Type in the second number followed by the Enter key");
+int secondNumber = Convert.ToInt32(Console.ReadLine());
 int result = firstNumber + secondNumber;
-Console.WriteLine("The addition of both number is {0}",result);
-Console.ReadKey();
-Console.WriteLine("The addition of both number is {0}", result);
+Console.WriteLine("Adding {0} and {1} give the answer {2}",firstNumber, secondNumber,result);
+
